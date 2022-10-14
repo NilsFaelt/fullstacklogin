@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "username": "aragornssaas",
+      "password": "gimli123",
+      "id": 1
+    },
+    {
+      "username": "gimli",
+      "password": "gimli123",
+      "id": 2
+    }
+  ],
+  "usersInfo": [
+    {
+      "name": "Lilly",
+      "age": 10,
+      "id": 1
+    },
+    {
+      "name": "Lilly",
+      "age": 10,
+      "id": 2
+    }
+  ]
+}

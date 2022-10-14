@@ -1,0 +1,19 @@
+{
+  "name": "fullstack_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "json-serve": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "express": "^4.18.2",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.20"
+  }
+}
