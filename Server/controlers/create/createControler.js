@@ -7,6 +7,7 @@ const createUser = async (req, res) => {
       password: req.body.password,
     });
     await axios.post(`http://localhost:3000/usersInfo`, {
+      username: req.body.username,
       name: req.body.name,
       age: req.body.age,
     });
