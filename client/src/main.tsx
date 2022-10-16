@@ -3,13 +3,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import NavBar from "./ui/navBar/NavBar";
+import Login from "./features/login/Login";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    children: [],
+    children: [
+      {
+        path: "/login",
+        element: <Login />,
+      },
+    ],
   },
 ]);
 
