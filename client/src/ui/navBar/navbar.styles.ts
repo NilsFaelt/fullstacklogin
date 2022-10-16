@@ -48,7 +48,16 @@ export const User = Styles(UserCircleIcon)`
     color:${Colors.Light};
     margin-right:10px;  
     color:white;
-    width:calc(12px + 3vw);
+    width:calc(20px + 3vw);
     cursor:pointer;
+    &:hover{
+        transition:0.2s;
+        width:calc(20px + 3vw);
+        color:${Colors.Light};
+        &:active{
+            color:${Colors.active}
+        }
+       
+    }
 
 `;
